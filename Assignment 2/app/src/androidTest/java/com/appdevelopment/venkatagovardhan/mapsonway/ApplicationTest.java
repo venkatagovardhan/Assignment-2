@@ -1,4 +1,4 @@
-package com.appdevelopment.venkatagovardhan.waytogo;
+package com.appdevelopment.venkatagovardhan.mapsonway;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

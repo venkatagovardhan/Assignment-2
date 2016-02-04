@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.appdevelopment.venkatagovardhan.waytogo">
+    package="com.appdevelopment.venkatagovardhan.mapsonway">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -27,15 +27,19 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
         <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps">
+            android:name="com.appdevelopment.venkatagovardhan.mapsonway.Login"
+            android:label="Map on way">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps">
         </activity>
     </application>
 

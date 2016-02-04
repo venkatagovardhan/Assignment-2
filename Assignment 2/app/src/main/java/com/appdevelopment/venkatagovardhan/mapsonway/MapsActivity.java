@@ -1,4 +1,4 @@
-package com.appdevelopment.venkatagovardhan.waytogo;
+package com.appdevelopment.venkatagovardhan.mapsonway;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
